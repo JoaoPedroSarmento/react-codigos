@@ -1,0 +1,7 @@
+{
+  "pecas": [
+    { "id": 1, "nome": "Processador", "marca": "Intel", "preco": 299.99 },
+    { "id": 2, "nome": "Placa de Vídeo", "marca": "NVIDIA", "preco": 499.99 },
+    { "id": 3, "nome": "Memória RAM", "marca": "Corsair", "preco": 79.99 }
+  ]
+}

@@ -1,0 +1,29 @@
+header,
+footer {
+  display: flex;
+  padding: 10px;
+}
+
+main {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+header {
+  border-bottom: 1px solid;
+}
+footer {
+  border-top: 1px solid;
+}
+button {
+  padding: 5px 20px;
+  width:150px;
+  border: 0px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #0f0f0f;
+}
+ a button{
+  text-decoration: none;
+  color: #fff;
+}

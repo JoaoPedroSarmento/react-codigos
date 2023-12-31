@@ -1,0 +1,151 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Camiseta",
+      "preco": 25.99,
+      "detalhes": "Camiseta de algodão confortável, disponível em várias cores e tamanhos."
+    },
+    {
+      "id": 2,
+      "nome": "Notebook",
+      "preco": 1099.99,
+      "detalhes": "Notebook de última geração, processador rápido, armazenamento amplo e tela de alta resolução."
+    },
+    {
+      "id": 3,
+      "nome": "Fones de Ouvido",
+      "preco": 49.99,
+      "detalhes": "Fones de ouvido sem fio com cancelamento de ruído, bateria de longa duração e design ergonômico."
+    },
+    {
+      "id": 4,
+      "nome": "Sapatênis",
+      "preco": 79.99,
+      "detalhes": "Sapatênis casual, confortável e estiloso, ideal para diversas ocasiões."
+    },
+    {
+      "id": 5,
+      "nome": "Câmera DSLR",
+      "preco": 899.99,
+      "detalhes": "Câmera DSLR profissional com alta resolução, diversas configurações e lente intercambiável."
+    },
+    {
+      "id": 6,
+      "nome": "Mochila",
+      "preco": 45.99,
+      "detalhes": "Mochila resistente e espaçosa, perfeita para uso diário ou viagens."
+    },
+    {
+      "id": 7,
+      "nome": "Smartphone",
+      "preco": 599.99,
+      "detalhes": "Smartphone com câmera de alta qualidade, desempenho rápido e tela de bordas finas."
+    },
+    {
+      "id": 8,
+      "nome": "Relógio Inteligente",
+      "preco": 129.99,
+      "detalhes": "Relógio inteligente com monitor de atividades, notificações e resistência à água."
+    },
+    {
+      "id": 9,
+      "nome": "Cadeira Ergonômica",
+      "preco": 149.99,
+      "detalhes": "Cadeira ergonômica com ajustes personalizados para conforto durante longas horas de trabalho."
+    },
+    {
+      "id": 10,
+      "nome": "Caixa de Som Bluetooth",
+      "preco": 79.99,
+      "detalhes": "Caixa de som portátil com conexão Bluetooth, bateria de longa duração e som de alta qualidade."
+    },
+    {
+      "id": 11,
+      "nome": "Tênis Esportivo",
+      "preco": 69.99,
+      "detalhes": "Tênis esportivo leve e respirável, ideal para corridas e atividades físicas."
+    },
+    {
+      "id": 12,
+      "nome": "Teclado Mecânico",
+      "preco": 89.99,
+      "detalhes": "Teclado mecânico para gamers, com iluminação RGB e resposta tátil."
+    },
+    {
+      "id": 13,
+      "nome": "HD Externo",
+      "preco": 129.99,
+      "detalhes": "HD externo com grande capacidade de armazenamento e transferência de dados rápida."
+    },
+    {
+      "id": 14,
+      "nome": "Óculos de Sol",
+      "preco": 39.99,
+      "detalhes": "Óculos de sol elegantes e com proteção UV, disponíveis em diversos estilos."
+    },
+    {
+      "id": 15,
+      "nome": "Panela Elétrica",
+      "preco": 59.99,
+      "detalhes": "Panela elétrica multifuncional, ideal para preparar diversos tipos de alimentos."
+    },
+    {
+      "id": 16,
+      "nome": "Impressora a Laser",
+      "preco": 199.99,
+      "detalhes": "Impressora a laser de alta velocidade, ideal para impressões em grande volume."
+    },
+    {
+      "id": 17,
+      "nome": "Máquina de Café",
+      "preco": 79.99,
+      "detalhes": "Máquina de café automática com diversas opções de bebidas e fácil de usar."
+    },
+    {
+      "id": 18,
+      "nome": "Ventilador de Torre",
+      "preco": 69.99,
+      "detalhes": "Ventilador de torre silencioso, com várias velocidades e oscilação."
+    },
+    {
+      "id": 19,
+      "nome": "Monitor UltraWide",
+      "preco": 299.99,
+      "detalhes": "Monitor UltraWide de alta resolução, ideal para trabalho multitarefa e jogos imersivos."
+    },
+    {
+      "id": 20,
+      "nome": "Mouse sem Fio",
+      "preco": 29.99,
+      "detalhes": "Mouse sem fio confortável, com sensor preciso e design ergonômico."
+    }
+  ],
+  "carrinho": [
+    {
+      "id": 1,
+      "nome": "Camiseta",
+      "preco": 25.99
+    },
+    {
+      "id": 2,
+      "nome": "Camiseta",
+      "preco": 25.99
+    },
+    {
+      "id": 3,
+      "nome": "Camiseta",
+      "preco": 25.99
+    },
+    {
+      "id": 4,
+      "nome": "Camiseta",
+      "preco": 25.99
+    },
+    {
+      "id": 5,
+      "nome": "Camiseta",
+      "preco": 25.99
+    }
+  ]
+}

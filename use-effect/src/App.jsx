@@ -1,36 +1,34 @@
-import { useState } from 'react'
-import './App.css'
+import { useState, useEffect } from "react";
+
 async function fetchPokemon() {
-  const response = await fetch("https://pokeapi.co/api/v2/pokemon/")
-  const data = await response.json()
-  return data.results;
+  const resposta = await fetch("https://pokeapi.co/api/v2/pokemon/");
+  const dados = await resposta.json();
+  return dados.results;
 }
 
-function App() {
-  const [pokemon, setPokemon] = useState([])
-  if (!pokemon.length) {
-    fetchPokemon().then(result => {
-      console.log("Requisição realizada")
-      console.log(result)
-      setPokemon(result)
-    })
-  }
-
+export default function App() {
+  const [pokemon, setPokemon] = useState([]);
+  useEffect(() => {
+    fetchPokemon()
+      .then((dados) => {
+        setPokemon(dados);
+      })
+      .catch((e) => {
+        console.log(e);
+      });
+  }, []);
   return (
-    <div className="app">
-      <div>
-        <h2>Pokémon</h2>
-        <ul className="pokemon">
-          {pokemon.map((pok) => (
-            <li key={pok.name}>
-              <span>{pok.name}</span>
-              <button > <a href={pok.url} target='_blank' rel="noreferrer">Ver detalhes</a></button>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </div>
-  )
+    <ul>
+      {pokemon.map((pok) => (
+        <li key={pok.name}>
+          <span>{pok.name}</span>
+          <button>
+            <a href={pok.url} target="_blank" rel="noreferrer">
+              Ver detalhes
+            </a>
+          </button>
+        </li>
+      ))}
+    </ul>
+  );
 }
-
-export default App

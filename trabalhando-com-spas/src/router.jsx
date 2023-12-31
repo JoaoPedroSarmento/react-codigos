@@ -4,6 +4,9 @@ import Products from "./pages/Products.jsx";
 import Cart from "./pages/Cart.jsx";
 import AdminHome from "./pages/admin/Admin.jsx";
 import RootLayout from "./pages/RootLayout.jsx";
+import Product from "./pages/Product.jsx";
+import loadProduct from "./loaders/product.js";
+import ProductBoundary from "./error-boundaries/ProductBrondary.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -16,6 +19,12 @@ const router = createBrowserRouter([
       {
         path: "products",
         element: <Products />,
+      },
+      {
+        path: "products/:productId",
+        element: <Product />,
+        loader: loadProduct,
+        errorElement: <ProductBoundary/>
       },
       {
         path: "cart",
